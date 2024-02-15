@@ -1,0 +1,29 @@
+.imageCard{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    height: 355px;
+    box-shadow: 10px 10px 20px #888888;
+    background-color: white;
+}
+.image{
+    height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.imageTitle{
+    font-size: 16px;
+    margin: 5px 8px;
+}
+.imageDesc{
+    position: relative;
+    color: gray;
+    font-size: 14px;
+    margin: 10px 8px;
+}
+.imageCard:hover{
+    box-shadow: 20px 20px 20px #888888;
+}

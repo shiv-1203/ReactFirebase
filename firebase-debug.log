@@ -1,0 +1,90 @@
+[debug] [2024-02-15T10:00:01.452Z] ----------------------------------------------------------------------
+[debug] [2024-02-15T10:00:01.456Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-15T10:00:01.457Z] CLI Version:   13.2.1
+[debug] [2024-02-15T10:00:01.457Z] Platform:      win32
+[debug] [2024-02-15T10:00:01.458Z] Node Version:  v20.0.0
+[debug] [2024-02-15T10:00:01.458Z] Time:          Thu Feb 15 2024 15:30:01 GMT+0530 (India Standard Time)
+[debug] [2024-02-15T10:00:01.458Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-15T10:00:01.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-15T10:00:01.470Z] > authorizing via signed-in user (shivammudaliar@thestempedia.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\LENOVO\Documents\Projects\content-delivery-system\firebasereact
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-02-15T10:01:44.085Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-02-15T10:01:44.085Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"firebase-tiles-react","name":"firebase-tiles-react"}
+[debug] [2024-02-15T10:01:46.181Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-02-15T10:01:46.181Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8766640513801128595"}
+[debug] [2024-02-15T10:01:46.184Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 [none]
+[debug] [2024-02-15T10:01:47.662Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 200
+[debug] [2024-02-15T10:01:47.662Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 {"name":"operations/cp.8766640513801128595"}
+[debug] [2024-02-15T10:01:48.184Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-02-15T10:01:48.186Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 [none]
+[debug] [2024-02-15T10:01:48.757Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 200
+[debug] [2024-02-15T10:01:48.757Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 {"name":"operations/cp.8766640513801128595","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-02-15T10:01:49.768Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-02-15T10:01:49.771Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 [none]
+[debug] [2024-02-15T10:01:50.277Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 200
+[debug] [2024-02-15T10:01:50.278Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8766640513801128595 {"name":"operations/cp.8766640513801128595","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"903518911504","projectId":"firebase-tiles-react","lifecycleState":"ACTIVE","name":"firebase-tiles-react","createTime":"2024-02-15T10:01:47.181672Z","parent":{"type":"organization","id":"941479954009"}}}
+[debug] [2024-02-15T10:01:50.287Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/firebase-tiles-react:addFirebase [none]
+[debug] [2024-02-15T10:01:54.208Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/firebase-tiles-react:addFirebase 200
+[debug] [2024-02-15T10:01:54.209Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/firebase-tiles-react:addFirebase {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3"}
+[debug] [2024-02-15T10:01:54.211Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 [none]
+[debug] [2024-02-15T10:01:54.814Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 200
+[debug] [2024-02-15T10:01:54.814Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3"}
+[debug] [2024-02-15T10:01:55.324Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-02-15T10:01:55.326Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 [none]
+[debug] [2024-02-15T10:01:55.948Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 200
+[debug] [2024-02-15T10:01:55.948Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3"}
+[debug] [2024-02-15T10:01:56.963Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-02-15T10:01:56.965Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 [none]
+[debug] [2024-02-15T10:01:57.533Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 200
+[debug] [2024-02-15T10:01:57.534Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3"}
+[debug] [2024-02-15T10:01:59.538Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-02-15T10:01:59.541Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 [none]
+[debug] [2024-02-15T10:02:00.104Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 200
+[debug] [2024-02-15T10:02:00.105Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3"}
+[debug] [2024-02-15T10:02:04.113Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-02-15T10:02:04.116Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 [none]
+[debug] [2024-02-15T10:02:04.537Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 200
+[debug] [2024-02-15T10:02:04.537Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3"}
+[debug] [2024-02-15T10:02:12.550Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-02-15T10:02:12.553Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 [none]
+[debug] [2024-02-15T10:02:13.159Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 200
+[debug] [2024-02-15T10:02:13.159Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3 {"name":"operations/workflows/Y2IxNjFiMzUtNWRmYS00MjY2LWJhMTItMTM1OTU5ZjI0MDM3","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"firebase-tiles-react","projectNumber":"903518911504","displayName":"firebase-tiles-react","name":"projects/firebase-tiles-react","resources":{"hostingSite":"fir-tiles-react"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: firebase-tiles-react
+[info]    - Project Name: firebase-tiles-react
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/firebase-tiles-react/overview
+[info] i  Using project firebase-tiles-react (firebase-tiles-react) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-15T10:02:13.203Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/firebase-tiles-react [none]
+[debug] [2024-02-15T10:02:13.804Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/firebase-tiles-react 200
+[debug] [2024-02-15T10:02:13.805Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/firebase-tiles-react {"projectId":"firebase-tiles-react","projectNumber":"903518911504","displayName":"firebase-tiles-react","name":"projects/firebase-tiles-react","resources":{"hostingSite":"fir-tiles-react"},"state":"ACTIVE","etag":"1_763f4fad-b792-4ba1-8179-b61d6fe8a2e1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
