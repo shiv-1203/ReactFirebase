@@ -17,7 +17,7 @@ This project aims to create a webpage featuring dynamic tiles, each displaying i
 - 🔑 **Dependencies:** Firebase for accessing Firestore
 
 ## Setup Instructions for local setup:
-1. 🌀 Clone the repository: `git clone <repository_url>`
+1. 🌀 Clone the repository: `git clone https://github.com/shiv-1203/ReactFirebase.git`
 2. 📦 Install dependencies: `npm install`
 3. 🛠️ Configure Firebase:
     - Create a Firebase project and set up Firestore.
