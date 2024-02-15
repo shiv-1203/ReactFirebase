@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactFirebase/static/css/main.4201619e.css",
+    "main.js": "/ReactFirebase/static/js/main.b2171ccf.js",
+    "static/js/592.3de08e70.chunk.js": "/ReactFirebase/static/js/592.3de08e70.chunk.js",
+    "static/media/logo.png": "/ReactFirebase/static/media/logo.e922873a5ab50e7fbf57.png",
+    "index.html": "/ReactFirebase/index.html",
+    "main.4201619e.css.map": "/ReactFirebase/static/css/main.4201619e.css.map",
+    "main.b2171ccf.js.map": "/ReactFirebase/static/js/main.b2171ccf.js.map",
+    "592.3de08e70.chunk.js.map": "/ReactFirebase/static/js/592.3de08e70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4201619e.css",
+    "static/js/main.b2171ccf.js"
+  ]
+}
